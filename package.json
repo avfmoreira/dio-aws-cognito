@@ -1,0 +1,16 @@
+{
+  "name": "apicognito",
+  "version": "1.0.0",
+  "description": "",
+  "main": "APICognito.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && mkdir -p nodejs && cp -r node_modules nodejs/ && zip -r  misericordiaAPICognito.zip nodejs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1351.0"
+  }
+}
